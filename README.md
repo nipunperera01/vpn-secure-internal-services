@@ -54,6 +54,23 @@ After implementation:
 
 ---
 
+## 🚨 Additional Security: Fail2Ban Integration
+
+To enhance security, **Fail2Ban** was used to monitor and block brute-force SSH login attempts.
+
+### 🔐 Config Highlights:
+- Monitored: `/var/log/auth.log`
+- Jail: `sshd`
+- Action: IP is banned after 5 failed login attempts for 10 minutes
+- Firewall: UFW used with Fail2Ban to ban attacker IPs
+
+### ✅ Status Output
+Example:
+📷 See `fail2ban logs(fail attempt and successfull) .png`
+📷 See `test with fail2ban in server(ssh).png`
+
+---
+
 ## 🧑‍💻 Author
 
 **Nipun Perera**  

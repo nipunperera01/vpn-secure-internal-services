@@ -36,28 +36,12 @@ This project is a **real-world simulation** of secure remote access used in indu
 
 | Feature                               | Screenshot                                 |
 |--------------------------------------|--------------------------------------------|
-| UFW Rules (VPN-only Access)          | ![ufw](screenshots/ufw-rules.png)          |
-| VPN Client Connected                 | ![vpn](screenshots/vpn-client connected.png) |
-| Web App Access via VPN               | ![web](screenshots/vpn-access.png)         |
-| Access Blocked without VPN           | ![fail](screenshots/local-blocked.png)     |
-| SCP Transfer of .ovpn file           | ![scp](screenshots/client1.ovpn file install to client using scp.png) |
-| SSH Access within VPN                | ![ssh](screenshots/ssh connect-with vpn.png) |
-
----
-
-## 📁 Folder Structure
-
-.
-├── client1.ovpn
-├── screenshots/
-│ ├── ufw-rules.png
-│ ├── vpn-client connected.png
-│ ├── vpn-access.png
-│ ├── local-blocked.png
-│ ├── ssh connect-with vpn.png
-│ ├── client1.ovpn file install to client using scp.png
-│ └── ovpn client file creation.png
-└── README.md
+| UFW Rules (VPN-only Access)          | ![ufw](Screenshots/ufw-rules.png)          |
+| VPN Client Connected                 | ![vpn](Screenshots/vpn-client connected.png) |
+| Web App Access via VPN               | ![web](Screenshots/vpn-access.png)         |
+| Access Blocked without VPN           | ![fail](Screenshots/local-blocked.png)     |
+| SCP Transfer of .ovpn file           | ![scp](Screenshots/client1.ovpn file install to client using scp.png) |
+| SSH Access within VPN                | ![ssh](Screenshots/ssh connect-with vpn.png) |
 
 ---
 
